@@ -13,7 +13,7 @@ const Hero = () => {
   height={50}
   className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
   />
-  <h1></h1>
+  
 
 </div>
   </section>
