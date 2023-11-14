@@ -45,7 +45,6 @@ const Navbar = () => {
 
 
     
-    export default Navbar
     
     // <nav className="flex flex-row justify-content items-center mx-auto max-w-[1440px] bg-red-500 px-6 lg:px-20">
     //     <div className="bg-yellow-500"></div>
