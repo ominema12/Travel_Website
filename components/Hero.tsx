@@ -15,7 +15,7 @@ const Hero = () => {
   />
 <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
 <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-We want to be in each one of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure the world in just one app 
+We want to be in each one of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure the world in just one app   
 </p>
 </div>
   </section>
