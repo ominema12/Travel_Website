@@ -17,6 +17,12 @@ const Hero = () => {
 <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
 We want to be in each one of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure the world in just one app   
 </p>
+<div className="my-11 flex flex-wrap gap-5">
+  <div className="flex items-center gap-2">
+  {Array(5).fill(1)}
+
+</div>
+</div>
 </div>
   </section>
   )
