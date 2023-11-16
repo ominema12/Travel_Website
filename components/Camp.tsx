@@ -55,7 +55,8 @@ const Camp = () => {
     <section className=" 2xl:max-container relative flex flex-col py:10 lg:py-20 xl:mb-20 ">
       <div className="hide-scrollbar flex h-[340] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]"> </div>
       <CampSite
-        backgroundImage="/img-1.png"
+        backgroundImage="bg-bg-img-1"
+        src="/img-1.png"
         title="Putuk Truno Camp"
         subtitle="Prigen, Pasuruan"
         peopleJoined="50+ Joined"
