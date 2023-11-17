@@ -16,7 +16,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
 
         <div className="flexCenter gap-4">
-          <div className="rounded-full bg-green-50 p-4">
+          <div className="rounded-full  bg-green-50 p-4">
             <Image
               src="/folded-map.svg"
               alt="map"
@@ -52,17 +52,16 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
 
 const Camp = () => {
   return (
-    <section className=" 2xl:max-container relative flex flex-col py:10 lg:py-20 xl:mb-20 ">
-      <div className="hide-scrollbar flex h-[340] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]"> </div>
+    <section className=" relative flex flex-col py:10 lg:py-20 xl:mb-20 ">
+      <div className="hide-scrollbar flex h-[340] w-full items-start justify-start gap-15 overflow-x-auto lg:h-[400px] xl:h-[640px]"> </div>
       <CampSite
         backgroundImage="bg-bg-img-1"
-        src="/img-1.png"
         title="Putuk Truno Camp"
         subtitle="Prigen, Pasuruan"
         peopleJoined="50+ Joined"
       />
       <CampSite
-        backgroundImage="img-2"
+        backgroundImage="bg-bg-img-2"
         title="Mountain view Camp"
         subtitle="Somewhere in the wilderness"
         peopleJoined="50+ Joined"
