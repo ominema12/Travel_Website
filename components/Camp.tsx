@@ -88,7 +88,7 @@ const Camp = () => {
             className="camp-quote"
           />
       </div>
-      <div></div>
+      
       </div>
 
 
