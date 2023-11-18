@@ -27,16 +27,16 @@ const Features = () => {
             />
             <h2 className="bold-40 lg:bold-64">Our Features</h2>
           </div>
-           
+
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
-            {FEATURES.map((feature)=>(
+            {FEATURES.map((feature) => (
               <FeatureItem
-              key={feature.title}
-              title={feature.title}
-              icon={feature.icon}
-              description={feature.description}
+                key={feature.title}
+                title={feature.title}
+                icon={feature.icon}
+                description={feature.description}
               />
-            )) }
+            ))}
 
           </ul>
 
@@ -45,23 +45,26 @@ const Features = () => {
 
 
     </section>
-
-    type FeatureItem={
+  )}
+    type FeatureItem= {
       title:string;
       icon:string;
       description:string;
     }
 
 
-    const FeatureItem =({title,icon,description}: FeatureItem ) => {
+  const FeatureItem = ({ title, icon, description }: FeatureItem) => {
     return (
       <li>
-
+       <div>
+        <Image src={icon}  alt="map" width={28} height={28}
+        />
+       </div>
+       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
+       <p className="regular-16 mt-5 bg-white/80 text-gary-30 lg:mt-[30px] lg:bg-none">{description}</p>
       </li>
     )
-  
 
-  
-}
+  }
 
-export default Features
+  export default Features
